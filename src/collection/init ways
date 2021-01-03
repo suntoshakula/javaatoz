@@ -1,0 +1,29 @@
+Deque<String> dq = new ArrayDeque<String>(5);
+List<String> myList = new ArrayList<String>();
+List<String> myEmp = Collections.<String>emptyList();
+Vector<String> enuvec = new Vector<String>();
+Enumeration<String> enumE  = Vector<String>.elements();
+Map map =  new HashMap();
+Set myset = new HashSet();
+Set<String> mystr = Collections.<String>emptySet();
+LinkedHashMap<String, String> = new LinkedHashMap<String,String>();
+TreeMap<String, String> hm = new TreeMap<String, String>();
+LinkedHashSet<String> lhs = new LinkedHashSet<String>();
+TreeSet<String> ts = new TreeSet<String>();
+HashSet<String> subSet = new HashSet<String>();
+
+
+Queue<String> q = Collections.asLifoQueue(Deque<String>); 
+List<String> ll = Collections.list(Enumeration<String>);
+Enumeration<String> rtnenum = Collections.enumeration(List<String>);
+List<String> myEmp = Collections.<String>emptyList();
+Collection<String> chcklist = Collections.checkedCollection(List<String>, String.class);
+Map rtnmap = Collections.checkedMap(Map, String.class, Integer.class);
+Set myretset = Collections.checkedSet(Set, String.class);
+Set<String> mystr = Collections.<String>emptySet();
+Set<String> slhm = LinkedHashMap.keySet();
+Set<Emp> ts = new TreeSet<Emp>(new EmpComp());
+
+list: not thread safe
+
+LinkedHashSet: no duplicates allowed default
